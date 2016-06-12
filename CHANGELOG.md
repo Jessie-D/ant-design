@@ -9,6 +9,19 @@ timeline: true
 
 ---
 
+## 1.4.0
+
+`2016-06-12`
+
+- `Input[type="textarea"]` 支持自动调整高度。 [#](TODO)
+- `Breadcrumb` 
+  - 新增 `nameRender` 以更好的支持 react-router 以外的路由。 [#1999](https://github.com/ant-design/ant-design/issues/1999)
+  - `linkRender` 新增 `paths` 参数。
+- 调整 `Tags` 样式。
+- 修复 `Table` 组件 `rowSelection.onChange` 与 `onRowClick` 冲突问题。 [#1470](https://github.com/ant-design/ant-design/issues/1470)
+- 修复 `Form.Item` 中 `Input` 高度抖动问题。 [#1955](https://github.com/ant-design/ant-design/issues/1955)
+- 优化 `Form` `Checkbox` `Radio` 重新渲染时的性能。 [#1972](https://github.com/ant-design/ant-design/issues/1972)
+
 ## 1.3.2
 
 `2016-06-06`
